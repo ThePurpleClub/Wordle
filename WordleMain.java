@@ -10,7 +10,7 @@ import java.util.List;
 public class WordleMain {
 	 public static void main(String[] args) {
 	        // Example word list and game configuration
-	        List<String> wordList = Arrays.asList("apple", "berry", "charm", "delta", "eagle", "flame", "grape", "honey"); //* example wordlist
+	        List<String> wordList = Arrays.asList("HELLO", "WORLD", "QUITE", "FANCY", "FRESH", "PANIC", "CRAZY", "BUGGY","SCARE"); //* example wordlist
 	        int maxRounds = 6;
 
 	        // Initialize the game and controller
@@ -22,3 +22,4 @@ public class WordleMain {
 	    }
 
 }
+
