@@ -37,11 +37,11 @@ package Wordle;
 	        List<String> result = new ArrayList<>();
 	        for (int i = 0; i < guess.length(); i++) {
 	            if (guess.charAt(i) == answer.charAt(i)) {
-	                result.add("Correct");         // Correct letter and position
+	                result.add("0");         // Correct letter and position
 	            } else if (answer.contains(String.valueOf(guess.charAt(i)))) {
-	                result.add("Present");     // Correct letter, wrong position
+	                result.add("?");     // Correct letter, wrong position
 	            } else {
-	                result.add("Incorrect");        // Incorrect letter
+	                result.add("_");        // Incorrect letter
 	            }
 	        }
 	        return result;
@@ -76,3 +76,4 @@ package Wordle;
 	    }
 	
 }
+
