@@ -35,7 +35,7 @@ Explain how to run the automated tests for this system
 If you’re using IntelliJ IDEA or Eclipse, right-click on the test class and select “Run” to execute the tests.
 Alternatively, from the command line, if using Maven, you can run mvn test.
 
-    Give an example
+     run mvn test
 
 
 ## Deployment
@@ -45,12 +45,6 @@ Add additional notes to deploy this on a live system
 ## Built With
 
 Eclipse
-
-## Contributing
-
-
-## Versioning
-
 
 ## Authors
 
